@@ -1,3 +1,5 @@
+import Dwira from "./salam"
+
 export default function Body(){
     return(
     <>
@@ -10,6 +12,7 @@ export default function Body(){
         </div>
       </div>
     </div>
+    <Dwira/>
         </>
     )
 }

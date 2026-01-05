@@ -13,7 +13,7 @@ export default function Navbar(){
         <li><a class="hover:text-gray-500/80 transition" href="#" >To do in Taghazout</a></li>
         <li><a class="hover:text-gray-500/80 transition" href="#" >Sahara Desert & Imperial Tours</a></li>
         <li><a class="hover:text-gray-500/80 transition" href="#" >Airport Transfers Agadir</a></li>
-        <li><a class="hover:text-gray-500/80 transition" href="#" >Contact Us</a></li>
+        <li><a class="hover:text-gray-500/80 transition" href="/contact" >Contact Us</a></li>
     </ul>
 </nav>
         </>
