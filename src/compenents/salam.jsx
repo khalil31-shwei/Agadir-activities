@@ -54,8 +54,8 @@ export default function Dwira(){
           </h2>
         </header>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {data.map((tour, index) => (
-            <Card key={index} {...tour} />
+          {data.map((data, index) => (
+            <Card key={index} {...data} />
           ))}
         </div>
       </div>
