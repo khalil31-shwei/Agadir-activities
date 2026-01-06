@@ -1,4 +1,6 @@
 import Dwira from "./salam"
+import ActivitiesSection from "./ThingsTodoSection";
+import Desert from "./sahara desert tour"
 export default function Body(){
     return(
     <>
@@ -11,7 +13,9 @@ export default function Body(){
         </div>
       </div>
     </div>
+    <ActivitiesSection />
     <Dwira/>
+    <Desert/>
     </>
     )
 }
